@@ -1,0 +1,2 @@
+When the x-axis points right and the y-axis points down, increasing θ produces a clockwise rotation.
+When the y-axis points up, the same transformation produces a counterclockwise rotation because the positive y-direction points upward.

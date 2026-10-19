@@ -1,0 +1,13 @@
+1.
+The rectangle has dimensions 400 × 300 and is centered at (400, 300). The two triangles, with vertices listed in visual counterclockwise order, are:
+Triangle 1 (top-left):(200,150), (200,450), (600,150)
+Triangle 2 (bottom-right):(600,150), (200,450), (600,450)
+
+2.
+Without an index buffer, storing six vertices requires 6 × 2 × 4 = 48 bytes. With an index buffer, we store four unique vertices and six indices, requiring 4 × 2 × 4 + 6 × 4 = 56 bytes.
+Therefore, the indexed approach uses 8 more bytes in this case.
+3.
+u=300/400=0.75
+v=151/300=0.50333
+Therefore, the normalized UV coordinates are:
+(0.75, 0.5033)
